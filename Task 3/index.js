@@ -7,21 +7,26 @@
 
  
      
-
- function myNum(x,y) {
+    
+function myNum(x,y) {
     
     
-   if (myNum = 65 || x + y == 65 ){
+  if (x = 65 || x + y == 65 ){
 
 
-    return true;
+   return true;
+
+
 }
-return false;
+
+else{
 
 
- }     
+ return false;
 
+}
 
-
+}     
+myNum(0,12);
 
 
