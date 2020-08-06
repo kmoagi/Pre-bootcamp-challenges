@@ -11,5 +11,5 @@ function myArea(x,y,z){
 }
 
 
-     
+ myArea(1,2,3);    
 
