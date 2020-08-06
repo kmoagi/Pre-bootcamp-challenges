@@ -4,10 +4,9 @@
 
 //  Task Four
 
-
 function myProduct(x,y) {
 
-if (myProduct = 3 & X + Y === 3) {
+if (x = 3 & x + y === 3) {
     return true;
    
   } else {
@@ -16,4 +15,6 @@ if (myProduct = 3 & X + Y === 3) {
 
 }
 
+
+myProduct(0,4);
 
