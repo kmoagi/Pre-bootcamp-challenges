@@ -7,6 +7,7 @@
 
  
        myProduct = Math.max(x,y,z);
+       return myProduct;
       }
 
       myProduct(1,2,3);
@@ -17,7 +18,8 @@
       function myProd(x,y,z){
 
  
-        myProduct2 = Math.random(x,y,z);
+        myProd = Math.random(x,y,z);
+        return myProd;
        }
  
        
