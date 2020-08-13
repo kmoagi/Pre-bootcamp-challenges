@@ -3,24 +3,21 @@
       // Task seven
 
 
-       
-      function cToF(celsius) 
+      function celsiusToFahrenheit(celsius) 
       {
-        var cTemp = celsius;
-        var cToFahr = cTemp * 9 / 5 + 32;
-        var message = cTemp  + cToFahr  ;
+        var celTemp = celsius;
+        var celToFahr = celTemp * 9 / 5 + 32;
+        var message = celTemp  + celToFahr  ;
           console.log(message);
       }
       
-      function fToC(fahrenheit) 
+      function fahrenheitToCelsius(fahrenheit) 
       {
-        var fTemp = fahrenheit;
-        var fToCel = (fTemp - 32) * 5 / 9;
-        var message = fTemp + fToCel ;
+        var fahrTemp = fahrenheit;
+        var fahrToCel = (fahrTemp - 32) * 5 / 9;
+        var message = fahrTemp + fahrToCel ;
           console.log(message);
       } 
-      cToF(5);
-      fToC(10);
-
-
+      celsiusToFahrenheit(5);
+      fahrenheitToCelsius(10);
       
