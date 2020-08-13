@@ -8,25 +8,20 @@
  
      
     
-function myNum(x,y) {
-    
-    
-  if (x = 65 || x + y == 65 ){
+function myNum(x,y){ 
+  
+  if (y == 65 || x == 65 || x + y == 65 ){
 
-
-   return true;
-
+  
+  return true;
 
 }
 
-else{
+else {
 
-
- return false;
+return false;
 
 }
 
 }     
 myNum(0,12);
-
-
