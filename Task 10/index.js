@@ -2,22 +2,14 @@
      
      // Task Ten
        
-     function vowel_count(str)
-     {
-     var vowel_list = 'aeiouAEIOU';
-     var vcount = 0;
-  
-     for(var x = 0; x < str.length ; x++)
-     {
-     if (vowel_list.indexOf(str[x]) !== -1)
-     {
-      vcount += 1;
+     var vowels = "aeiouAEIOU";
+     var string = "Hello Umuzi";
+     
+     var array = "";
+     for (i = 0; i < string.length; i++) {
+       if(vowels.indexOf(string[i]) >= 0) array += string[i];
      }
-  
-     }
-      return vcount;
-     }
-      console.log(vowel_count("I am trying my best and loving it"));
+     console.log(array);
 
      
      
