@@ -3,18 +3,17 @@
 
 
 //  Task Four
-
 function myProduct(x,y) {
 
-if (x = 3 & x + y === 3) {
-    return true;
-   
-  } else {
-    return false;
+  if (x = 3 & x + y === 3) {
+      return true;
+     
+    } else {
+      return false;
+    }
+  
   }
-
-}
-
-
-myProduct(0,4);
+  
+  
+  myProduct(3,0);
 
