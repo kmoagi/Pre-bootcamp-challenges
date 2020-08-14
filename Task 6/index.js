@@ -1,27 +1,30 @@
 
 
 
-// Task Six
+var Numbers = [1, 2, 3, 4, 5];
+var l = Numbers.length;
+var max = -Infinity;
+var i;
+for (i = 0; l > i; i++) {
 
-  function myProduct(x,y,z){
+    if (Numbers[i] > max) {
 
- 
-       myProduct = Math.max(x,y,z);
-       return myProduct;
-      }
+        max = Numbers[i];
 
-      myProduct(1,2,3);
+    }
+
+}
+
+console.log(max);
 
       ///////////////bonus/////////////////
       
-      
-      function myProd(x,y,z){
+      function random_item(items)
+{
+  
+return items[Math.floor(Math.random()*items.length)];
+     
+}
 
- 
-        myProd = Math.random(x,y,z);
-        return myProd;
-       }
- 
-       
-        myProd(1,2,3);
-
+var items = [1, 2, 3, 4];
+console.log(random_item(items))
