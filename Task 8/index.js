@@ -3,17 +3,18 @@
       // Task Eight 
 
 
-
- function time_Convert(num)
-     { 
-     var hours = Math.floor(num / 60);  
-     var minutes = num % 60;
-     return hours + ":" + minutes;         
-     }
-
-     console.log(time_Convert(3));
-     console.log(time_Convert(10));
-     console.log(time_Convert(3500));
+    function timeConvert(n) {
+            var num = n;
+            var hours = (num / 60);
+            var rhours = Math.floor(hours);
+            var minutes = (hours - rhours) * 60;
+            var rminutes = Math.round(minutes);
+            
+            
+            return rhours + " hour(s) and " + rminutes + " minute(s).";
+            }
+            
+            console.log(timeConvert(200));
 
 
 
