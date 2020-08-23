@@ -1,30 +1,40 @@
 
 
 
-var Numbers = [1, 2, 3, 4, 5];
-var l = Numbers.length;
-var max = -Infinity;
-var i;
-for (i = 0; l > i; i++) {
+// Task Six
 
-    if (Numbers[i] > max) {
 
-        max = Numbers[i];
+function maxNum(arr){
+    var max = arr[0];
+    for(var i=1; i<arr.length; i++){
+      if(arr[i] > max){
+        max = arr[i];   
+      }
+     }
+   return max;
+   }
+   
+   maxNum([4,12,3]);
 
-    }
 
-}
 
-console.log(max);
+
+
+
+
 
       ///////////////bonus/////////////////
       
-      function random_item(items)
-{
-  
-return items[Math.floor(Math.random()*items.length)];
-     
-}
 
-var items = [1, 2, 3, 4];
-console.log(random_item(items))
+
+function randomNum(arr){
+    var random = arr[0];
+    for(var i=1; i<arr.length; i++){
+      if(arr[i] > random){
+        random = arr[i];   
+      }
+     }
+   return random;
+   }
+   
+   randomNum([4,12,3]);
