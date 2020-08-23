@@ -3,17 +3,15 @@
 
 
 //  Task Four
-function myProduct(x,y) {
+function test(x, y) {
 
-  if (x = 3 & x + y === 3) {
-      return true;
-     
-    } else {
-      return false;
-    }
-  
+  if ((x == 3 || y == 3) || (x + y == 3)){
+            return true;
+
+  } else {
+    return false;
   }
-  
-  
-  myProduct(3,0);
+
+}
+console.log(test(3, 5))
 
