@@ -2,14 +2,16 @@
 
 //  Task Five
 
-function myArea(x,y,z){
+function myArea(side1,side2,side3){
 
-  var s = 1/2 * (x + y + z);
+  var s = (side1 + side2 + side3)/2;
+  var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+  
+  
+  console.log(area);
 
-  myArea = Math.sqrt(s);
- 
+
 }
 
-
- myArea(1,2,3);    
-
+myArea(7,5,3);
+     
